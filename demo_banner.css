@@ -1,0 +1,36 @@
+table{
+    width: 100%;
+}
+#header{
+    /* kich thuoc 100% */
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center; 
+    /* can giua */
+}
+#nav{
+    background-color: #eeeeee;
+    width: 10 px;
+}
+#nav>ul{
+    /* lam mat dau gach y o trong list */
+    list-style-type: none; 
+    text-indent: -35px;
+    margin-top: -100 px;
+}
+#nav li>a{
+    /* lam mat dau gach duoi link */
+    text-decoration: none;
+    color: black;
+}
+#main{
+    width: 80%;
+    padding: 100 px
+}
+#footer{
+    background-color: black;
+    color: White;
+    width:100%;
+    text-align: center;
+}
